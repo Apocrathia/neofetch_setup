@@ -10,7 +10,7 @@ fi
 me=$(who am i | awk '{print $1}')
 
 # Backup motd configuration directory
-cp -rfv /etc/update-motd.d /etc/update-motd.bak
+cp -rf /etc/update-motd.d /etc/update-motd.bak
 
 # Go into the motd dir
 cd /etc/update-motd.d
