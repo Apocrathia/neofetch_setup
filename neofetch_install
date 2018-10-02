@@ -19,4 +19,4 @@ ln -s /opt/neofetch/neofetch /usr/local/sbin/neofetch
 cd -
 
 # Throw the update script in the crontab
-cp update_neofetch /etc/cron.weekly/update_neofetch
+cp neofetch_update /etc/cron.weekly/neofetch_update
