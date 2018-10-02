@@ -19,3 +19,5 @@ Default configuration is created at `$HOME/.config/neofetch/config.conf`.
 1. Run `neofetch_install`
 2. (Optional) Run `neofetch_motd`
 3. Open a new terminal
+
+(Note: This is a temporary solution, and I will most likely turn this into a simple Ansible playbook at a later date.)
