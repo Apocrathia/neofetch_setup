@@ -12,4 +12,10 @@ Default configuration is created at `$HOME/.config/neofetch/config.conf`.
 
 [Customization of the configuration is detailed here.](https://github.com/dylanaraps/neofetch/wiki/Customizing-Info)
 
-** This has only been tested on Ubuntu 18.04.1 LTS. YMMV **
+**This has only been tested on Ubuntu 18.04.1 LTS. YMMV**
+
+## Usage
+
+1. Run `neofetch_install`
+2. (Optional) Run `neofetch_motd`
+3. Open a new terminal
