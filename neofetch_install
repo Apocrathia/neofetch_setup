@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Check for root
+if [ "$EUID" -ne 0 ]
+  then echo "I'm sorry $USER. I'm afraid I can't do that."
+  exit
+fi
+
+# Go to /opt/
+cd /opt/
+
+# Clone neofetch
+git clone https://github.com/dylanaraps/neofetch.git
+
+# Link to /usr/local/sbin/
+ln -s /opt/neofetch/neofetch /usr/local/sbin/neofetch
+
+# Go back to where we were
+cd -
+
+# Throw the update script in the crontab
+cp update_neofetch /etc/cron.weekly/update_neofetch

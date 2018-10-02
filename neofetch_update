@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Go to neofetch install dir
+cd /opt/neofetch
+
+# Pull updates from github
+git pull
+
+# Now go link this dumb script
+
